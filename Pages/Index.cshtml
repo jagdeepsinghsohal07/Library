@@ -1,0 +1,40 @@
+﻿@page
+@model IndexModel
+@{
+    ViewData["Title"] = "Library";
+}
+
+<div class="text-center">
+    <h1 class="display-4">Welcome to Our Book Library</h1>
+    <p>Explore our collection and find your next read.</p>
+
+   <div class="text-center">
+    <h1>Welcome to StreamLibrary </h1>
+    <p>Explore a world of knowledge and adventure in our extensive collection of books.</p>
+    <img src="~/images/L1.jpg" alt="Featured Book" style="max-width: 300px; height: 200px;"/>
+    <h3>Featured Books</h3>
+    <p>Check out our specially curated list of must-reads!</p>
+    <!-- Implement the logic to display featured books here -->
+</div>
+
+<div>
+    <h2>Features</h2>
+    <p>Check out the interactive features of our library:</p>
+    <ul>
+        <li><a href="/Library/InteractiveFeatures/BookRecommendations">Book Recommendations</a></li>
+        <li><a href="/Library/InteractiveFeatures/NewArrivals">New Arrivals</a></li>
+        <li><a href="/Library/InteractiveFeatures/Popular">Popular Books</a></li>
+    </ul>
+</div>
+
+<div>
+    <h2>Community</h2>
+    <p>Join the discussion in our community forums.</p>
+    <a class="btn btn-info" href="/Community/Forums">Forums</a>
+</div>
+
+<div>
+    <h2>Support</h2>
+    <p>Need help? Visit our support page for assistance.</p>
+    <a class="btn btn-warning" href="/Support">Support</a>
+</div>
